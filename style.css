@@ -252,17 +252,17 @@ form textarea {
   width: 100%;
   margin: 0.5rem 0;
   padding: 0.5rem;
-  border: 2px solid #d3b4a2;
+  border: 2px solid #a2745c;
   outline: none;
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: 400;
-  background-color: #d3b4a2;
+  background-color: white;
 }
 
 form input:focus,
 form textarea:focus {
-  border-color: #d3b4a2;
+  border-color: #a2745c;
 }
 
 textarea {
@@ -272,7 +272,7 @@ textarea {
 form label {
   margin-top: 1rem;
   display: block;
-  color: #d3b4a2;
+  color: #a2745c;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -291,8 +291,8 @@ form button {
 }
 
 form button:hover {
-  background-color: #d3b4a2;
-  color: #9b9b81;
+  background-color:white;
+  color: #a2745c;
  
   
 }
