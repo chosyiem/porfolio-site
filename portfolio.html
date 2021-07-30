@@ -2,6 +2,27 @@
 layout: default
 ---
 
-<section>
-    Portfolio
+<section class="padded bg-green grid">
+    <div class="col-9 light-text padded-b">
+        <h2> We design and create but if you have a design of your own, let us know</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos esse ipsa ratione placeat fuga modi ullam rem quae architecto distinctio. Voluptatibus, obcaecati ea cumque aliquam deleniti dolor iure ducimus harum.</p>
+    </div>
+    
+
+    {% for project in site.projects %}
+    <div class="col-7-middle_sm-12">
+        <div class="bg-image landscape" style="background-image: url('{{ project.featured_image }}')">       
+        </div>
+
+    </div>
+    <div class="col-5-middle_sm-12 padded-2">
+
+        <h3> {{ project.title}} </h3>
+        <p class="emphasis"> {{project.description}} </p>
+        <p> Design by: {{project.design-by}}</p>
+        <p> Build by: {{project.build-by}}</p>
+        <a href="{{project.live_url}}" class="button" target="_blank">View Live Site </a>
+
+    </div>
+    {% endfor %}
 </section>
