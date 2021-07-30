@@ -121,6 +121,9 @@ nav a {
 
 a:hover { color: #a2745c; }
 
+div a {
+    text-decoration: none;
+}
 .button {
   text-decoration: none;
   border: 2px solid; 
