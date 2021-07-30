@@ -195,6 +195,12 @@ footer a:hover {
 .landscape {
     padding-bottom: 60%;
 }
+
+.right-arrow {
+    max-width: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
 /* Responsive video */
 
 
@@ -235,4 +241,55 @@ footer a:hover {
         background-position: 45% 50%;
     }
 
+}
+
+/* Contact form */
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #d3b4a2;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: #d3b4a2;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #d3b4a2;
+}
+
+textarea {
+  min-height: 7rem;
+}
+
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: #d3b4a2;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+form button {
+  background-color: #d3b4a2;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.7rem 2rem;
+  margin: 0.5rem 0;
+  letter-spacing: 0.3em;
+  font-weight: 700; 
+  float: right;
+}
+
+form button:hover {
+  background-color: #d3b4a2;
+  color: #9b9b81;
+ 
+  
 }
